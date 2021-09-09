@@ -1,0 +1,330 @@
+
+
+
+
+
+
+
+
+
+/* For Phone */
+
+  @media(max-width:468px){
+
+
+    /* Header */
+    .top-nav-container{
+     
+      height: 100%;
+      width:100%;
+    
+  }
+  .address{
+    display: none;
+  }
+    top-nav-left{
+      text-align: center;
+    }
+    
+.top-nav-right{
+  display: none;
+}
+
+    header{
+    display: flex;
+    justify-content: space-between;
+    width:90%;
+    margin:0.8rem auto;
+ 
+  
+}
+    .hamburger-menu{
+      display: block;
+    }
+  .mobile-menu{
+    width:0;
+    transition:width 0.5s cubic-bezier(0.215, 0.610, 0.355, 1);
+    background-color:violet;
+    height:100vh;
+    position: fixed;
+    top:0;
+    overflow: hidden;
+    left:0;
+    z-index:10000;
+  }
+  .mobile-link{
+    position: relative;
+    top:20%;
+  }
+  .mobile-link li{
+    padding:0.9rem;
+  }
+.navbar{
+  display: none;
+}
+#home{
+  height:100vh;
+}
+.first-home{
+  height:100vh;
+  object-fit: cover;
+}
+
+.home-image{
+  display: none;
+}
+    
+
+
+.home-heading-text{
+  font-size:2.1rem;
+  font-family: var(--maintext);
+  color: var(--maincolor);
+}
+
+
+
+
+
+
+
+.carousel:hover .right{
+  visibility: hidden;
+  transition: all 0.3s linear;
+}
+.carousel:hover .left{
+  visibility: hidden;
+  transition: all 0.3s linear;
+}
+
+
+
+
+.image-2,.image-3{
+  position: relative;
+  height: 100vh;
+
+}
+.image-2::before,.image-3::before{
+content:"";
+position: absolute;
+top:0;
+left:0;
+bottom:0;
+width:100%;
+background-color: var(--maincolor);
+opacity: 0.6;
+
+}
+
+.heading-text{
+  position: absolute;
+  top:70%;
+  left:40%;
+  transform:translate(-50%,-50%);
+}
+.text-home{
+  font-size:2.1rem;
+  font-weight:bold;
+  font-family: var(--maintext);
+  color: #118d5d;
+}
+.para-home{
+  font-size: 0.9rem;
+  color:#ffffff;
+  font-family: var(--maintext);
+}
+
+#home{
+  overflow:hidden;
+}
+/* Header finish */
+    
+/* About details */
+    .about-details{
+    margin-top:1.3rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+   
+
+  }
+  #aboutpng{
+    width:300px;
+  }
+  .about-text h1,p{
+    margin-left:0px;
+  }
+  .about-image{
+    width:100%;
+  }
+  .about-image-details{
+    text-align: center;
+    margin-top:1.9rem;
+  }
+  
+  .about-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 2.3rem auto;
+    width:90%;
+    flex: 1 1;
+    flex-direction: column;
+    -ms-flex-direction: column;
+ 
+  }
+  #aboutus{
+    margin-top:1.4rem;
+  
+  }
+  .about-heading{
+    text-align: center;
+  
+  }
+  .about-heading h1{
+    font-size:1.6rem;
+    color:#211C5B;
+  }
+  .about-text p{
+    margin-top:0.8rem;
+    font-size:0.8rem;
+  }
+
+
+
+
+/* About finish */
+
+
+/* Course */
+    #courses{
+    display: flex;
+    flex-direction: column;
+    -ms-flex-direction: column;
+    
+  }
+#coursehead{
+  font-size:1.2rem;
+  margin-bottom:1rem;
+  margin-left: 0rem;
+  text-align: center;
+}
+  #coursepng{
+    width:100%;
+    height:auto;
+   
+  }
+  .left-courses{
+   
+    width:100%;
+  }
+  .right-courses{
+    margin-top:1.3rem;
+    width:100%;
+  }
+  .left-course-details{
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+    grid-gap: 0rem;
+   
+    margin:1.9rem 0rem 0rem 1.2rem;
+  }
+  .web-development{
+    margin:1.2rem 0rem;
+  }
+  .digital-marketing{
+    margin:1.2rem 0rem;
+  }
+    .extra h1{
+      font-size:0.8rem;
+    }
+
+
+
+    /* Course finish */
+
+
+
+
+
+/* Faq */
+
+
+
+    #faq{
+    display: flex;
+    flex-direction: column;
+    -ms-flex-direction: column;
+}
+
+.right-faq{
+    padding: 0.9rem 0rem;
+    margin-top:1.2rem;
+    width:100%;
+    background-color: rgb(238, 238, 238);
+}
+.faq-section h1{
+  font-size: 1.3rem;;
+}
+
+#faq-image-png{
+  width:100%;
+    height:auto;
+} 
+
+.question h3{
+  font-size:0.8rem;
+}
+.answer p{
+  font-size:0.8rem;
+}
+
+
+
+/* Faq finish */
+
+
+
+
+
+
+
+
+
+    .mySlides q{
+        font-size: 1rem;
+        color:#fff;
+    }
+  #backgroundimage-text h1{
+    font-size:1.4rem;
+  }
+
+
+
+/* Footer */
+   
+    footer{
+    display: flex;
+    padding: 0.6rem;
+    flex-direction: column;
+    -ms-flex-direction: column;
+    
+  }
+  .footer-container{
+    width:100%;
+    margin:0.8rem 0rem;
+ 
+    
+  }
+  
+  .map iframe{
+    width:100%;
+  }
+  .social-icons{
+    display: none;
+  }
+
+  /* Footer Complete */
+  }
+
